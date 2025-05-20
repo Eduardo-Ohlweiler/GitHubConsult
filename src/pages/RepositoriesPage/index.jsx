@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Main, Sidebar } from "./styles";
 import Profile from "../../components/Profile";
+import Filter from "../../components/Filter";
 
 function RepositoriesPage() {
     
@@ -8,6 +9,7 @@ function RepositoriesPage() {
         <Container>
             <Sidebar>
                 <Profile />
+                <Filter />
             </Sidebar>
             <Main>
                 main
