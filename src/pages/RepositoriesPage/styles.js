@@ -4,7 +4,7 @@ export const Container = styled.main`
   display: flex;
   min-height: 100vh;
 
-  @media screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {  /* Corrigido aqui */
+  @media screen and (max-width: ${({ theme }) => theme.breakpoints.md}) {  
     flex-direction: column;
   }
 `;

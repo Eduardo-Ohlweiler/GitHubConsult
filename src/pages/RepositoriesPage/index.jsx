@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Main, Sidebar } from "./styles";
 import Profile from "../../components/Profile";
 import Filter from "../../components/Filter";
+import Repositories from "../../components/Repositories";
 
 function RepositoriesPage() {
     
@@ -12,7 +13,7 @@ function RepositoriesPage() {
                 <Filter />
             </Sidebar>
             <Main>
-                main
+                <Repositories />
             </Main>
         </Container>
     )
